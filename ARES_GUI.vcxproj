@@ -129,15 +129,25 @@
   <ItemGroup>
     <ClCompile Include="ApproachPanel.cpp" />
     <ClCompile Include="Constants.cpp" />
+    <ClCompile Include="Data.cpp" />
+    <ClCompile Include="InputFilePanel.cpp" />
+    <ClCompile Include="InputsPanel.cpp" />
     <ClCompile Include="LogoPanel.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="SplashFrame.cpp" />
+    <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="SplashPanel.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ApproachPanel.h" />
     <ClInclude Include="Constants.h" />
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="InputFilePanel.h" />
+    <ClInclude Include="InputsPanel.h" />
     <ClInclude Include="LogoPanel.h" />
-    <ClInclude Include="SplashFrame.h" />
+    <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="SplashPanel.h" />
+    <ClInclude Include="test.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Images\ARES_Logo_Text.png" />

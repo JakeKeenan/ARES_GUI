@@ -7,7 +7,7 @@ class LogoPanel :
 	public wxPanel
 {
 public:
-	LogoPanel(wxFrame* parent, wxString file, wxBitmapType format);
+	LogoPanel(wxWindow* parent, wxString file, wxBitmapType format);
 
 	void paintEvent(wxPaintEvent & evt);
 	void paintNow();

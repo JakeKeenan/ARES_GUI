@@ -5,7 +5,7 @@
 #include <wx/wx.h>
 #endif
 
-#include "SplashFrame.h"
+#include "MainFrame.h"
 #include "Constants.h"
 #include <iostream>
 class MyApp : public wxApp
@@ -36,7 +36,9 @@ wxIMPLEMENT_APP(MyApp);
 bool MyApp::OnInit()
 {
 	wxSize size(Constants::WIDTH, Constants::HEIGHT);
-	wxFrame* frame = new SplashFrame(Constants::APP_TITLE, size, PICTURE); 
+	wxFrame* frame = nullptr;
+	frame = new MainFrame(Constants::APP_TITLE, size, PICTURE, &frame);
+
 	frame->Show(true);
 	return true;
 }

@@ -1,5 +1,5 @@
 #include "LogoPanel.h"
-LogoPanel::LogoPanel(wxFrame* parent, wxString file, wxBitmapType format) :
+LogoPanel::LogoPanel(wxWindow* parent, wxString file, wxBitmapType format) :
 	wxPanel(parent) {
 	if (image.LoadFile(file, format)) {
 		width = -1;
